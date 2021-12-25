@@ -1,13 +1,16 @@
 // Find and delete:
+char szItemList[256];
+
+// Find and delete:
 snprintf(szItemList, sizeof(szItemList), "%s/item_list.txt", localePath);
 
-// Next, find:
+// Next, replace this condition:
 if (!rkItemMgr.LoadItemList(szItemList))
 {
 	// [...]
 }
 
-// And replace this condition with:
+// With:
 std::array<std::string, 2 /* Instead of two, you can set the number of files to be loaded. */> table =
 {
 	"item_list.txt",
@@ -18,6 +21,7 @@ std::array<std::string, 2 /* Instead of two, you can set the number of files to 
 
 for (const auto& i : table)
 {
+	char szItemList[256];
 	snprintf(szItemList, sizeof szItemList, i.c_str());
 
 	if (!i.c_str())
