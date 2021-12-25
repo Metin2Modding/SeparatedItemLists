@@ -1,13 +1,13 @@
 ### M2-SLOI (SeparatedListOfItems) — What is this?
-#### With this addon, you can create any list of text files that can contain item entries, e.g.:
+#### This addon allows you to split item_list.txt into several files.
 ```
 item_list.txt
 
-10	WEAPON	icon/item/00010.tga	d:/ymir work/item/weapon/00010.gr2
+1 ETC	icon/item/money.tga d:/ymir work/item/etc/money.gr2
 ```
 
 ```
-another_item_list.txt
+weapon_item_list.txt
 
-20	WEAPON	icon/item/00020.tga	d:/ymir work/item/weapon/00020.gr2
+10 WEAPON icon/item/00010.tga d:/ymir work/item/weapon/00010.gr2
 ```
