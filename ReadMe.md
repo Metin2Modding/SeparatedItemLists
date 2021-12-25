@@ -1,5 +1,5 @@
 ### M2-SLOI (SeparatedListOfItems) - What is this?
-## With this add-on, you can create any list of text files that can contain item entries, e.g.:
+#### With this add-on, you can create any list of text files that can contain item entries, e.g.:
 ```
 item_list.txt
 
