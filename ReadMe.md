@@ -3,7 +3,7 @@
 ```
 etc_item_list.txt
 
-1 ETC	icon/item/money.tga d:/ymir work/item/etc/money.gr2
+1 ETC icon/item/money.tga d:/ymir work/item/etc/money.gr2
 ```
 
 ```
