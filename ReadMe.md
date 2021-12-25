@@ -1,7 +1,7 @@
 ### M2-SLOI (SeparatedListOfItems) — What is this?
 #### This addon allows you to split item_list.txt into several files.
 ```
-item_list.txt
+etc_item_list.txt
 
 1 ETC	icon/item/money.tga d:/ymir work/item/etc/money.gr2
 ```
