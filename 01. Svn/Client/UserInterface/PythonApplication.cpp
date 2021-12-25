@@ -22,16 +22,11 @@ for (const auto& i : table)
 	char szItemList[256];
 	snprintf(szItemList, sizeof szItemList, i.c_str());
 
-	if (!i.c_str())
-		break;
+	if (rkItemMgr.LoadItemList(i.c_str()))
+		TraceError("LoadLocaleData -> LoadItemList -> Loaded file: %s", i.c_str());
 	else
 	{
-		if (rkItemMgr.LoadItemList(i.c_str()))
-			TraceError("LoadLocaleData -> LoadItemList -> Loaded file: %s", i.c_str());
-		else
-		{
-			TraceError("LoadLocaleData -> LoadItemList -> Not loaded file: %s", i.c_str());
-			continue;
-		}
+		TraceError("LoadLocaleData -> LoadItemList -> Not loaded file: %s", i.c_str());
+		continue;
 	}
 }
