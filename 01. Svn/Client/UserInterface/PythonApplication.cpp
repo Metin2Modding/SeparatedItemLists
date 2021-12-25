@@ -11,12 +11,10 @@ if (!rkItemMgr.LoadItemList(szItemList))
 }
 
 // With:
-std::array<std::string, 2 /* Instead of two, you can set the number of files to be loaded. */> table =
+std::vector<std::string> table =
 {
-	"item_list.txt",
-	"another_item_list.txt"
-	// If the above 2 has been changed to e.g. 3 then you add another file here.
-	// Remember to include a comma after "another item_list.txt", but don't need to be added to the end of the table.
+	"txt/etc_list.txt",
+	"txt/weapon_list.txt"
 };
 
 for (const auto& i : table)
