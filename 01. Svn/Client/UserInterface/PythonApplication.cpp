@@ -23,10 +23,10 @@ for (const auto& i : table)
 	snprintf(szItemList, sizeof szItemList, i.c_str());
 
 	if (rkItemMgr.LoadItemList(i.c_str()))
-		Tracef("LoadLocaleData -> LoadItemList -> Loaded file: %s", i.c_str());
+		Tracef("LoadLocaleData -> LoadItemList — Loaded file: %s", i.c_str());
 	else
 	{
-		TraceError("LoadLocaleData -> LoadItemList -> Not loaded file: %s", i.c_str());
+		TraceError("LoadLocaleData -> LoadItemList — Not loaded file: %s", i.c_str());
 		continue;
 	}
 }
