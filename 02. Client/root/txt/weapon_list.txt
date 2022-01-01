@@ -1,0 +1,1 @@
+10 WEAPON icon/item/00010.tga d:/ymir work/item/weapon/00010.gr2
