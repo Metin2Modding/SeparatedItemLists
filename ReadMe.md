@@ -1,4 +1,4 @@
-### M2-SLOI (SeparatedListOfItems) — What is this?
+### M2-SLOI (SeparatedListsOfItems) — What is this?
 #### This addon allows you to split item_list.txt into several files.
 ```
 etc_item_list.txt
