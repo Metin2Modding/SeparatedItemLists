@@ -1,4 +1,4 @@
-### SeparatedItems — What is this?
+### SeparatedItemLists - What is this?
 #### This addon allows you to split item_list.txt into several files.
 ```
 etc_item_list.txt
